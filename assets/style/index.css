@@ -31,12 +31,12 @@ main {
     font-size: 130px;
     color: #fff;
     line-height: 1;
-    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .alarm i {
     color: #fff;
-    padding-bottom: 40px;
+    padding-bottom: 55px;
 }
 
 .alarm input {
@@ -65,5 +65,9 @@ main {
 
 .alarm button:hover {
     background-color: #009157;
+}
+
+.time-now {
+    height: 140px;
 }
 
