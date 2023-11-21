@@ -28,7 +28,7 @@ main {
 }
 
 .alarm h1 {
-    font-size: 130px;
+    font-size: 150px;
     color: #fff;
     line-height: 1;
     margin-bottom: 30px;
@@ -36,7 +36,7 @@ main {
 
 .alarm i {
     color: #fff;
-    padding-bottom: 55px;
+    padding-bottom: 50px;
 }
 
 .alarm input {
@@ -48,6 +48,10 @@ main {
     text-align: center;
     color: #fff;
     margin-right: 10px;
+}
+
+.alarm input:focus {
+    border: 1px solid #009d5e;
 }
 
 .alarm ::placeholder {
@@ -64,10 +68,15 @@ main {
 }
 
 .alarm button:hover {
-    background-color: #009157;
+    background-color: #008952;
 }
 
 .time-now {
-    height: 140px;
+    height: 150px;
 }
 
+.alarm-time {
+    color: #fff;
+    font-size: 17px;
+    margin-left: 10px;
+}

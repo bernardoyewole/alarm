@@ -19,11 +19,13 @@
             <div class="container alarm-container">
                 <section class="alarm">
                     <h1 class="time-now"></h1>
-                    <p><i class="fa-solid fa-bell"></i><span class="alarm-time"></span></p>
+                    <p>
+                        <i class="fa-solid fa-bell"></i><span class="alarm-time"></span>
+                    </p>
                     <form>
-                        <input type="text" class="hour" placeholder="HH" minlength="1" maxlength="2">
-                        <input type="text" class="minute" placeholder="MM" minlength="1" maxlength="2">
-                        <button class="set-alarm">Set alarm</button>
+                        <input type="text" class="hour" placeholder="HH" minlength="1" maxlength="2" required>
+                        <input type="text" class="minute" placeholder="MM" minlength="1" maxlength="2" required>
+                        <button type="button" class="set-alarm">Set alarm</button>
                     </form>
                 </section>
             </div>
